@@ -51,7 +51,7 @@ class program:
 
         self.doover_iface.set_children([
             doover_ui_variable(
-                name="isWorking",
+                name="anyoneWatching",
                 display_str="Did anybody see that?",
                 var_type="bool",
                 curr_val=anyone_watching,
@@ -63,6 +63,8 @@ class program:
             name="anyone_watching",
             value=anyone_watching
         )
+
+        self.doover_iface.set_display_str( "Hello World" )
 
         self.doover_iface.handle_comms()
 
