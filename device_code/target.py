@@ -63,6 +63,8 @@ class program:
             name="anyone_watching",
             value=anyone_watching
         )
+        
+        self.doover_iface.set_display_str( "Hello World" )
 
         self.doover_iface.handle_comms()
 
