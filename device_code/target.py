@@ -54,7 +54,7 @@ class program:
                 name="isWorking",
                 display_str="Did anybody see that?",
                 var_type="bool",
-                current_value=anyone_watching,
+                curr_val=anyone_watching,
                 graphic="fireworks_gif",
             )
         ])
