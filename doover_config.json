@@ -4,7 +4,11 @@
         "files": [
             {
                 "name": "fireworks_gif",
+<<<<<<< HEAD
                 "file_dir": "assets/fireworks.gif",
+=======
+                "file_dir": "assets/fireworks_gif.gif",
+>>>>>>> c5792751f6e46d878c803249cc3aae80cad3160a
                 "mime_type": "image/gif"
             }
         ]
